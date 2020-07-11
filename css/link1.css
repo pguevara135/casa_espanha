@@ -19,50 +19,21 @@ a {
     text-decoration: none;
 }
 
-/* CAbecalho */
+/* Container */
 
-.cabecalho {
-    background-color: #d9f0ff;
-    color: #53474762;
-    padding: 0 15px;
-    height: 60px;
-}
-
-.cabecalho h2, .navbar-list ul, .navbar-list li, .menu {
-    display: inline-block;
+.container {
+    margin: auto;
+    max-width: 1200px;
+    background-color: #dff0ff;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
 }
 
 .cabecalho {
-    background-image: url(../pictures/Banner_casa_espana.png);
-    background-repeat: no-repeat;
-}
-
-.cabecalho h2 {
-    margin: 0;
-    line-height: 60px;
-    margin-left: 65px;
+    display: flex;
 }
 
 .cabecalho img {
-    height: 40px;
-    position: absolute;
-    top: 10px;
-}
-
-.menu {
-    float: right;
-    margin-top: 20px;
-}
-
-.menu li {
-    margin: 0 10px;
-}
-
-.menu li a {
-    color: #ca192a;
-}
-
-.menu li a:hover {
-    border-bottom: 2px solid #ffc400;
-    font-weight: bolder;
+    height: 25%;
 }

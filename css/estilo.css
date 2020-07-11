@@ -29,13 +29,13 @@ p {
 .container {
   width: 100%;
   max-width: 1200px;
+  float: left;
   height: auto;
   margin-left: 2px;
   margin: auto;
   background-color: #d9f0ff;
   font-family: 'Montserrat', sans-serif;
   font-size: 100%;
-  float: left;
 }
 
 h1, h2, h3, h4 {
